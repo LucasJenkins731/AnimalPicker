@@ -17,5 +17,8 @@ public class animalpicker {
         else if (selection.equals("dog")) {
             System.out.println("DOG ASCII ART HERE");
         }
+        else {
+            System.out.println("Invalid input");
+        }
     }
 }
