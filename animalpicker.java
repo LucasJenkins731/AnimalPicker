@@ -8,7 +8,7 @@ public class animalpicker {
 
     static void input() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("What animal would you like to see? \nCat or Dog?");
+        System.out.println("What animal would you like to see? \nCat, Dog, or Fish?");
         selection = scanner.next().toLowerCase();
     }
     public static void main(String[] args) {
@@ -29,6 +29,15 @@ public class animalpicker {
                                         "/_/\\_____/\r\n" + //
                                         "   /\\   /\\\r\n" + //
                                         "  /  \\ /  \\");
+            }
+            else if (selection.equals("fish")) {
+                tracker = 1;
+                System.out.println("      .            \r\n" + //
+                                        "\\_____)\\_____\r\n" + //
+                                        "/--v____ __`<         \r\n" + //
+                                        "        )/           \r\n" + //
+                                        "        '\r\n" + //
+                                        "");
             }
             else {
                 tracker = 0;
