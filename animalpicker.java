@@ -18,11 +18,17 @@ public class animalpicker {
         while (tracker == 0){
             if (selection.equals("cat")) {
                 tracker = 1;
-                System.out.println("CAT ASCII ART HERE");
+                System.out.println(" _._     _,-'\"\"`-._\r\n" + //
+                                        "(,-.`._,'(       |\\`-/|\r\n" + //
+                                        "    `-.-' \\ )-`( , o o)\r\n" + //
+                                        "          `-    \\`_`\"'-");
             }
             else if (selection.equals("dog")) {
                 tracker = 1;
-                System.out.println("DOG ASCII ART HERE");
+                System.out.println("^..^      /\r\n" + //
+                                        "/_/\\_____/\r\n" + //
+                                        "   /\\   /\\\r\n" + //
+                                        "  /  \\ /  \\");
             }
             else {
                 tracker = 0;
