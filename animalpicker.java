@@ -1,4 +1,4 @@
-package animalpicker;
+package AnimalPicker;
 
 import java.util.*;
 
@@ -8,7 +8,7 @@ public class animalpicker {
 
     static void input() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("What animal would you like to see? \nCat, Dog, or Fish?");
+        System.out.println("What ASCII art would you like to see? \nCat, Dog, Homer, or Fish?");
         selection = scanner.next().toLowerCase();
     }
     public static void main(String[] args) {
@@ -38,6 +38,10 @@ public class animalpicker {
                                         "        )/           \r\n" + //
                                         "        '\r\n" + //
                                         "");
+            }
+            else if (selection.equals("homer")) {
+                tracker = 1;
+                System.out.println("   ___  _____    \n .\'/,-Y\"     \"~-.  \n l.Y             ^.           \n /\\               _\\_      \"Doh!\"   \ni            ___/\"   \"\\ \n|          /\"   \"\\   o !   \nl         ]     o !__./   \n \\ _  _    \\.___./    \"~\\  \n  X \\/ \\            ___./  \n ( \\ ___.   _..--~~\"   ~`-.  \n  ` Z,--   /               \\    \n    \\__.  (   /       ______) \n      \\   l  /-----~~\" /      -Row\n       Y   \\          / \n       |    \"x______.^ \n       |           \\    \n       j            Y");
             }
             else {
                 tracker = 0;
